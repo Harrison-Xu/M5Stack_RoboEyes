@@ -30,8 +30,12 @@
 
 // Use TFT display colors. See:
 // https://docs.m5stack.com/en/arduino/m5gfx/m5gfx_appendix#about%20colorcode
+#ifndef BGCOLOR
 #define BGCOLOR 0x0000    // background and overlays
+#endif
+#ifndef MAINCOLOR
 #define MAINCOLOR 0x867D  // drawings
+#endif
 
 // For mood type switch
 #define NORMAL 0
