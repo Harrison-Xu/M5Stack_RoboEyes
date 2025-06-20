@@ -27,7 +27,7 @@ void setup() {
   roboEyes.setAutoblinker(ON, 3, 1);  // on/off, interval between each blink in seconds, range for random interval variation in seconds
   roboEyes.setIdleMode(ON, 5, 2);     // on/off, interval between each eye repositioning in seconds, range for random interval variation in seconds
   roboEyes.setCuriosity(ON);
-  roboEyes.setMood(NORMAL);  // NORMAL, HAPPY, TIRED, ANGRY
+  roboEyes.setMood(NORMAL);           // NORMAL, HAPPY, TIRED, ANGRY
   roboEyes.setHFlicker(OFF, 3);
   roboEyes.setVFlicker(OFF, 3);
 
